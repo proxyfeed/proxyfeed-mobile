@@ -2,9 +2,6 @@
 
 A minimal React Native (Expo) client for **ProxyFeed**. Log in with your account (cookie-based session), list your feeds via `/api/feeds`, and trigger “Fetch now” for any feed. Built to demonstrate quick RN onboarding and integration with an existing backend. No over‑engineering, just a focused MVP you can run and show.
 
-![ProxyFeed Mobile (MVP) Demo](assets/demo.gif)
-
-
 ## Features
 
 - Cookie session login against `https://proxyfeed.io`
@@ -35,9 +32,13 @@ A minimal React Native (Expo) client for **ProxyFeed**. Log in with your account
 ## Setup
 
 ```bash
-git clone https://github.com/<you>/proxyfeed-mobile.git
+git clone https://github.com/proxyfeed/proxyfeed-mobile.git
 cd proxyfeed-mobile
 npm install
 cp .env.example .env
 npx expo start
 ```
+
+## Demo
+
+![ProxyFeed Mobile (MVP) Demo](assets/proxyfeed-mobile-demo.gif)
