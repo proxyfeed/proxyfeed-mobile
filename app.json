@@ -20,10 +20,17 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "io.proxyfeed.proxyfeedmobile"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dd56fc1a-0ace-415d-9a0c-d6ff5998d1a2"
+      }
+    },
+    "owner": "yeldarx"
   }
 }
